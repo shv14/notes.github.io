@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Notes Website</title>
+    <link rel="stylesheet" type="text/css" href="notes.css">
+    
+</head>
+<body>
+    <header>
+        <h1>My Notes</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="note-list" id="noteList">
+                <!-- Add more notes here -->
+            </div>
+            <div class="note-form">
+                <h2>Create a New Note</h2>
+                <form id="noteForm">
+                    <input type="text" id="noteTitle" placeholder="Title" required>
+                    <textarea id="noteContent" placeholder="Write your note here" required></textarea>
+                    <button type="submit">Save Note</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="notes.js"></script>
+</body>
+</html>
